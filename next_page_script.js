@@ -4,7 +4,7 @@ document.getElementById('submit-btn').addEventListener('click', function() {
     const correctDate = '2017-03-21';
 
     if (inputDate === correctDate) {
-        window.location.href = 'main.html'; // Redirect to index page
+        window.location.href = './main.html'; // Redirect to index page
     } else {
         feedbackText.textContent = 'Em còn nhớ hay em đã quên';
     }
