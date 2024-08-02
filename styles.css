@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.container {
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+#yes-btn {
+    background-color: #28a745;
+    color: white;
+    width: 100px;
+}
+
+#no-btn {
+    background-color: #dc3545;
+    color: white;
+    width: 100px;
+}
+
+#no-btn.move {
+    position: absolute;
+}
+
+input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Patrick Hand', cursive;
+    margin-left: 10px;
+}
+
+#submit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+#feedback-text {
+    margin-top: 20px;
+    color: red;
+    font-size: 18px;
+}

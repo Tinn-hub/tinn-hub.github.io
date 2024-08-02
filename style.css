@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #e9e6e6;
+    color: black;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width:20%; /* Increased size */
+    height: auto;
+}
+
+.language-switcher {
+    margin-top: 10px;
+}
+
+.language-switcher button {
+    background: white;
+    border: none;
+    color: #4CAF50;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.language-switcher button:hover {
+    background: #f0f0f0;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section#about-us {
+    background: url('images/introduction_bg.jpg') no-repeat center center/cover;
+    color: black;
+}
+
+section#about-us .container {
+    background:white;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.place, .day {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+.trip{
+    display: block;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.place img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.place-info {
+    flex: 1;
+}
+
+.place-info h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.popup-link{
+    color: inherit;
+    text-decoration: none;
+}
